@@ -186,12 +186,12 @@
         padding: 10px;
     }
     nav>#img1{
-        margin-right:-90px;
+        margin-right:-10px;
     }
     nav>#img2{
         background-color: orange;
         position: absolute;
-        left:787px;
+        left:600px;
     }
     .container{
         display: flex;
@@ -228,8 +228,10 @@
     .container1,.container2,.container3{
         margin: 70px 0px 0px 20px;
         display:flex;
-        gap:20px;
+        gap:12%;
+        flex-wrap: wrap;
         margin-top: 10px;
+        width:90%;
     }
     .container1>div{
         width: 170px;
@@ -239,10 +241,10 @@
         color: black;
         font-weight: bold;
         font-size: large;
-        margin-top: 10px;  
+        margin: 10px 0px 0px 5px;  
     }
     .container2{
-        gap:35px;
+        column-gap:170px;
     }
     .container2>div{
         width: 250px;
@@ -272,10 +274,11 @@
     }
     .container3{
         flex-wrap: wrap;
-        margin-left: 70px;
+        margin-left:1px;
+        width:750px;
     }
     .container3>div{
-        width: 400px;
+        width: 320px;
         height: 200px;
         background-color: white;
         text-align: center;
@@ -284,15 +287,16 @@
         font-size: large;
         margin-top:20px;
         box-shadow:2px 0px 10px grey;
+        margin-left:-5px;
     }
     .container3>#watch{
         display: flex;
         align-items: center;
         background-color:rgb(189, 217, 248);
-        padding-left: 50px;
-        gap: 10px;
+        padding-left:5px;
+        gap: 1px;
         color: rgba(100, 117, 186, 1);
-        margin-left: 50px;
+        margin-left: 10px;
         line-height: 1.6rem;
     }
     footer{
@@ -373,11 +377,11 @@
     .container1,.container2,.container3{
         margin: 70px 0px 0px 20px;
         display:flex;
-        gap:20px;
+        gap:1%;
         margin-top: 10px;
     }
     .container1>div{
-        width: 170px;
+        width: 90%;
         height: 200px;
         background-color: white;
         text-align: center;
@@ -387,7 +391,7 @@
         margin-top: 10px;  
     }
     .container2{
-        gap:35px;
+        gap:3%;
     }
     .container2>div{
         width: 250px;
